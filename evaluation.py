@@ -35,7 +35,6 @@ for idx, key in enumerate(NSinger2Aug_dict.keys()):
             cnt += 1
             f.write('\t\t<td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(dict2[key]))
             index_dict[perm[0]].append(cnt-1)
-            cnt += 1
             f.write('\t</tr>\n')
             f.write('</tbody>\n')
     else: 
@@ -47,6 +46,5 @@ for idx, key in enumerate(NSinger2Aug_dict.keys()):
             cnt += 1
             f.write('\t\t<td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(dict2[key]))
             index_dict[perm[0]].append(cnt-1)
-            cnt += 1
             f.write('\t</tr>\n')
             f.write('</tbody>\n')
