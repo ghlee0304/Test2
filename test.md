@@ -1,19 +1,3 @@
-## N-Singer2 AB TEST PAGE
-
-### 안녕하세요 AB TEST에 응해주셔서 감사합니다. 
-
-#### 1-1) 시작합니다!
-    - 두번째 테스트는 AB 테스트 입니다. 
-    - wav 파일을 두 개를 비교하고 더 좋은 모델을 선택해주세요 
-
-<table style='width: 120%;'>
-<thead>
-    <tr>
-        <th></th>
-        <th>A</th>
-        <th>B</th>
-    </tr>
-    </thead>
 <tbody>
 	<tr>
 		<th scope="row">1</th> <td><audio controls="" ><source src="wav/abtest/NSinger2Tune_05_balladw01_atTheEnd_007.wav" type="audio/wav"></audio></td>
@@ -164,5 +148,3 @@
 		<td><audio controls="" ><source src="wav/abtest/NSinger2Aug_20_balladw05_sigh_015.wav" type="audio/wav"></audio></td>
 	</tr>
 </tbody>
-
-</table>

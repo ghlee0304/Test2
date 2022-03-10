@@ -33,7 +33,7 @@ for idx, key in enumerate(NSinger2Aug_dict.keys()):
             f.write('\t\t<th scope="row">{}</th> <td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(cnt, dict1[key]))
             index_dict[perm[0]].append(cnt-1)
             cnt += 1
-            f.write('\t\t<th scope="row">{}</th> <td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(cnt, dict2[key]))
+            f.write('\t\t<td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(dict2[key]))
             index_dict[perm[0]].append(cnt-1)
             cnt += 1
             f.write('\t</tr>\n')
@@ -45,7 +45,7 @@ for idx, key in enumerate(NSinger2Aug_dict.keys()):
             f.write('\t\t<th scope="row">{}</th> <td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(cnt, dict1[key]))
             index_dict[perm[0]].append(cnt-1)
             cnt += 1
-            f.write('\t\t<th scope="row">{}</th> <td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(cnt, dict2[key]))
+            f.write('\t\t<td><audio controls="" ><source src="{}" type="audio/wav"></audio></td>\n'.format(dict2[key]))
             index_dict[perm[0]].append(cnt-1)
             cnt += 1
             f.write('\t</tr>\n')
