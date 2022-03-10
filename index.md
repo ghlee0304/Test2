@@ -7,7 +7,13 @@
     - wav 파일을 두 개를 비교하고 더 좋은 모델을 선택해주세요 
 
 <table style='width: 120%;'>
-
+<thead>
+    <tr>
+        <th></th>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    </thead>
 <tbody>
 	<tr>
 		<th scope="row">1</th> <td><audio controls="" ><source src="wav/abtest/NSinger2Tune_05_balladw01_atTheEnd_007.wav" type="audio/wav"></audio></td>
